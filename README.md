@@ -19,7 +19,7 @@ Huge thanks to [camenduru](https://github.com/camenduru), without him this colab
 - The usual `/content/drive/mydrive/feliz/stable-diffusion-webui` is renamed to `/content/drive/mydrive/feliz/volatile-concentration-localux`, just keep in mind. Every file and folder inside is normal. (Pretty obvious though)
 
 ### ⚠️ Got an Error 403?
-Read [here](https://github.com/etherealxx/volatile-concentration-localux-colab/blob/main/error403guide.md) for guide to fix it.
+Read [here](https://github.com/W1Real/feliz/blob/main/error403guide.md) for guide to fix it.
 
 ### 🆙 Latest Update:
 - 12/08/2023 (August): Gradio version bump to v3.37.0 (fixing the bug where extension selection doesn't appear and when orange button is pressed, error JSON input will shows up). ~~gradio_client version bump to v0.2.10 to matches the Gradio version.~~
