@@ -3,7 +3,7 @@ import os, pickle, subprocess
 arialines = None
 downloadcnet = False
 
-vclvarpath = '/content/vclvariables'
+vclvarpath = '/content/drive/mydrive/feliz/vclvariables'
 def pickleload(prevvalue, inputfile):
   inputpath = os.path.join(vclvarpath, inputfile + '.pkl')
   if os.path.exists(inputpath):
@@ -31,7 +31,7 @@ def subprocessing(execline):
 if arialines:
   for line in arialines:
     if not '4x-UltraSharp.pth' in line:
-      ariaexecline = line[2:].replace('\\n",', '').replace('/content/stable-diffusion-webui', '/content/volatile-concentration-localux')
+      ariaexecline = line[2:].replace('\\n",', '').replace('/content/drive/mydrive/feliz/stable-diffusion-webui', '/content/drive/mydrive/feliz/volatile-concentration-localux')
       if 'ControlNet' in ariaexecline:
          if downloadcnet:
             subprocessing(ariaexecline)

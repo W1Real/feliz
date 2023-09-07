@@ -16,7 +16,7 @@ Basically proof-of-concept. Would like to hear feedbacks and suggestion on the i
 Huge thanks to [camenduru](https://github.com/camenduru), without him this colab wouldn't be possible. Check out his [original repo](https://github.com/camenduru/stable-diffusion-webui-colab).
 
 ### ⚠️ Things to Note!
-- The usual `/content/stable-diffusion-webui` is renamed to `/content/volatile-concentration-localux`, just keep in mind. Every file and folder inside is normal. (Pretty obvious though)
+- The usual `/content/drive/mydrive/feliz/stable-diffusion-webui` is renamed to `/content/drive/mydrive/feliz/volatile-concentration-localux`, just keep in mind. Every file and folder inside is normal. (Pretty obvious though)
 
 ### ⚠️ Got an Error 403?
 Read [here](https://github.com/etherealxx/volatile-concentration-localux-colab/blob/main/error403guide.md) for guide to fix it.
